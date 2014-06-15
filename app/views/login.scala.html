@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" href="@routes.Assets.at("stylesheets/main.css")">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+
+<body>
+
+<form action = "@routes.Application.processLogin" method="post">
+    <h1>Welcome to experience Deep Impact</h1>
+    <div id="loginDiv" class="loginDiv">
+        Username:<input type="user" name="username" id="username"><br>
+        Password: <input type="password" name="password" id="password"><br>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+
+
+</body>
+</html>
