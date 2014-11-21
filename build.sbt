@@ -1,6 +1,6 @@
 name := "DeepImpact"
 
-version := "1.0-SNAPSHOT2"
+version := "1.0-SNAPSHOT3"
 
 libraryDependencies ++= Seq(
   jdbc,
